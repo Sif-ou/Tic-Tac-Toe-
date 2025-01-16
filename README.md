@@ -1,2 +1,2 @@
 # Tic-Tac-Toe-
-SDL tic tac toe 
+tic tac toe game using sdl2
