@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Game",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I", "src/include",
+                "-L", "src/lib",
+                "main.cpp",
+                "-o", "main.exe",
+                "-lSDL2",
+                "-lSDL2_image"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
